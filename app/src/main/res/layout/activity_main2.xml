@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="180dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="-300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/video1" />
+
+    <TextView
+        android:id="@+id/gamename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-300dp"
+        android:background="#7283AC"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatar"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <TextView
+        android:id="@+id/console"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-250dp"
+        android:background="#7283AC"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gamename"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-190dp"
+        android:background="#7283AC"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/console"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-130dp"
+        android:background="#7283AC"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/year"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-65dp"
+        android:background="#7283AC"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price"
+        app:layout_constraintVertical_bias="0.766" />
+</androidx.constraintlayout.widget.ConstraintLayout>
